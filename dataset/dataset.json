@@ -1,0 +1,184 @@
+[
+    {
+        "imagefilename": "wait.0.png",
+        "annotation": [
+            {
+                "coordinates": {
+                    "y": 0,
+                    "x": 0,
+                    "height": 116,
+                    "width": 286
+                },
+                "label": "wait"
+            }
+        ]
+    },
+    {
+        "imagefilename": "wait.1.png",
+        "annotation": [
+            {
+                "coordinates": {
+                    "y": 0,
+                    "x": 0,
+                    "height": 132,
+                    "width": 306
+                },
+                "label": "wait"
+            }
+        ]
+    },
+    {
+        "imagefilename": "wait.2.png",
+        "annotation": [
+            {
+                "coordinates": {
+                    "y": 0,
+                    "x": 0,
+                    "height": 211,
+                    "width": 720
+                },
+                "label": "wait"
+            }
+        ]
+    },
+    {
+        "imagefilename": "wait.3.png",
+        "annotation": [
+            {
+                "coordinates": {
+                    "y": 0,
+                    "x": 0,
+                    "height": 98,
+                    "width": 248
+                },
+                "label": "wait"
+            }
+        ]
+    },
+    {
+        "imagefilename": "wait.4.png",
+        "annotation": [
+            {
+                "coordinates": {
+                    "y": 0,
+                    "x": 0,
+                    "height": 179,
+                    "width": 485
+                },
+                "label": "wait"
+            }
+        ]
+    },
+    {
+        "imagefilename": "start.0.png",
+        "annotation": [
+            {
+                "coordinates": {
+                    "y": 0,
+                    "x": 0,
+                    "height": 108,
+                    "width": 214
+                },
+                "label": "start"
+            }
+        ]
+    },
+    {
+        "imagefilename": "start.1.png",
+        "annotation": [
+            {
+                "coordinates": {
+                    "y": 0,
+                    "x": 0,
+                    "height": 162,
+                    "width": 280
+                },
+                "label": "start"
+            }
+        ]
+    },
+    {
+        "imagefilename": "start.2.png",
+        "annotation": [
+            {
+                "coordinates": {
+                    "y": 0,
+                    "x": 0,
+                    "height": 410,
+                    "width": 762
+                },
+                "label": "start"
+            }
+        ]
+    },
+    {
+        "imagefilename": "start.3.png",
+        "annotation": [
+            {
+                "coordinates": {
+                    "y": 0,
+                    "x": 0,
+                    "height": 148,
+                    "width": 292
+                },
+                "label": "start"
+            }
+        ]
+    },
+    {
+        "imagefilename": "start.4.png",
+        "annotation": [
+            {
+                "coordinates": {
+                    "y": 0,
+                    "x": 0,
+                    "height": 264,
+                    "width": 668
+                },
+                "label": "start"
+            }
+        ]
+    },
+    {
+        "imagefilename": "whenStartAsClone.0.png",
+        "annotation": [
+            {
+                "coordinates": {
+                    "y": 0,
+                    "x": 0,
+                    "height": 304,
+                    "width": 728
+                },
+                "label": "whenStartAsClone"
+            }
+        ]
+    },
+    {
+        "imagefilename": "whenStartAsClone.1.png",
+        "annotation": [
+            {
+                "coordinates": {
+                    "y": 0,
+                    "x": 0,
+                    "height": 214,
+                    "width": 639
+                },
+                "label": "whenStartAsClone"
+            }
+        ]
+    },
+    {
+        "imagefilename": "whenStartAsClone.2.png",
+        "annotation": [
+            {
+                "coordinates": {
+                    "y": 0,
+                    "x": 0,
+                    "height": 181,
+                    "width": 560
+                },
+                "label": "whenStartAsClone"
+            }
+        ]
+    }
+]
