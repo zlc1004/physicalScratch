@@ -1,5 +1,5 @@
 DATA_TYPE=["startBlock","waitXSecondBlock","userNameVar","showBlock","hideBlock"]
-
+crosshair_size = 50
 
 
 import tkinter as tk
@@ -87,6 +87,14 @@ for image in imgs:
     canvas.bind('<Button-1>', on_click)
     canvas.bind('<B1-Motion>', on_drag)
     canvas.bind('<ButtonRelease-1>', on_release)
+    # bind command z to undo
+    def undo(event):
+        if data:
+            canvas.delete(data.pop())
+        if rect_id:
+            canvas.delete(rect_id)
+    root.bind('<Command-z>', undo)
+    root.bind('<Control-z>', undo)
     # add a close button
 
     def close():
@@ -94,9 +102,8 @@ for image in imgs:
         root.destroy()
     button = tk.Button(root, text='Close', command=close)
     button.pack()
-    crosshair_size = 30
-    crosshair = canvas.create_line(0, 0, crosshair_size, 0, fill='black')
-    crosshair2 = canvas.create_line(0, 0, 0, crosshair_size, fill='black')
+    crosshair = canvas.create_line(0, 0, crosshair_size, 0, fill='black',width=1)
+    crosshair2 = canvas.create_line(0, 0, 0, crosshair_size, fill='black',width=1)
 
     def move_crosshair(event):
         canvas.coords(crosshair, event.x - crosshair_size, event.y, event.x + crosshair_size, event.y)
